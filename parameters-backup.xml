@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!-- THIS FILE SPECIFIES GUTSIM PARAMETERS -->
+<params>
+	<timestep>0.1</timestep>
+	<diet_code>tr</diet_code>	
+	<exp_dir></exp_dir>
+	<end>504.0</end><!--experiment duration, hours-->
+	<force>1</force><!--1 = overwrite existing files-->
+	<verbose>1</verbose>
+	<tag></tag><!-- added to end of output directories-->
+
+	<output>
+		<!--1 = draw graphs; 0 means don't; blank means unspecified-->
+		<mouse_graphs>0</mouse_graphs>
+		<bacteria_graphs>0</bacteria_graphs>
+	</output>
+	
+	<mouse></mouse><!--integer; 'all' runs all mice; blank defers to command line-->
+
+	<diet_regimes>
+		<inulin><!--amount of inulin added to the diet in grams-->
+			<adlib>0.0</adlib>
+			<timed><!--TRF inulin administration-->
+				<dose>0.0</dose>
+				<start>0.0</start>
+				<duration>0.0</duration>
+			</timed>
+		</inulin>
+		<time_restricted><!--periodic fasting within 24 hour window-->
+			<!--time at which food is made available in 24h cycle. 0..24-->
+			<start>0.0</start>
+			<!--duration for which food available, hours, 0..24-->
+			<duration>12.0</duration>
+		</time_restricted>
+		<five_two>
+			<!--days numbered 1-7. Value of -1 means no diet-->
+			<day1>4</day1>
+			<day2>1</day2>
+			<!--proportion of full day's intake consumed on diet days. 0..1-->
+			<diet_quantity>0.2</diet_quantity>
+		</five_two>
+		<alternate_day>
+			<!--proportion of full day's intake consumed on fasting days. 0..1-->
+			<diet_quantity>0.0</diet_quantity>
+		</alternate_day>
+		<fibre_Hdm>
+			<administration_time></administration_time>
+			<duration></duration>
+			<quantity></quantity>
+		</fibre_Hdm>
+	</diet_regimes>
+
+	<bacteria>
+		<maxInternalisationRate>500.0</maxInternalisationRate>
+		<CtoNRatio>5.2</CtoNRatio>
+		<limitExcessiveInternalisation>1</limitExcessiveInternalisation>
+		<alternativeNutrientUtilisation>0</alternativeNutrientUtilisation>
+		<mean_internalised_carbon_lifetime>2.5</mean_internalised_carbon_lifetime>
+		<mean_internalised_nitrogen_lifetime>10.0</mean_internalised_nitrogen_lifetime>
+		<variable_uptake_rate>1</variable_uptake_rate><!--boolean-->
+	</bacteria>
+
+
+	<mouse>
+		<scale_factor>30.0</scale_factor>
+		<bacteria_peristalsis_rate>0.2</bacteria_peristalsis_rate><!--cm/peristalsis-->
+		<nutrient_peristalsis_rate>0.2</nutrient_peristalsis_rate><!--cm/peristalsis-->
+		<rhythmic_excretion>0</rhythmic_excretion><!--boolean-->
+		<excretion_rate>0.05</excretion_rate><!--float, 0 to 1-->
+		<gut_carrying_weight>0.3</gut_carrying_weight>		
+
+		<init_Bwf>100</init_Bwf><!--integers-->
+		<init_Bwm>100</init_Bwm>
+		<init_Bdf>100</init_Bdf>
+		<init_Bdm>100</init_Bdm>
+		<init_Bmm>100</init_Bmm>
+		<init_Bmf>100</init_Bmf>
+		<inoculation_rate>0.000003</inoculation_rate>	
+	</mouse>
+</params>

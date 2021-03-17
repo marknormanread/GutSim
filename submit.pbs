@@ -1,0 +1,16 @@
+#~/bin/sh -login
+
+#PBS -P RDS-FSC-BIOSIM-RW
+#PBS -l walltime=00:40:00
+#PBS -q compute
+#PBS -N bacter
+
+#PBS -e /project/RDS-FSC-BIOSIM-RW/gutsim-madi/output/$PBS_ARRAY_INDEX
+#PBS -o /project/RDS-FSC-BIOSIM-RW/gutsim-madi/output/$PBS_ARRAY_INDEX
+
+#### array job ####
+#PBS -J 0-249
+
+cd /project/RDS-FSC-BIOSIM-RW/gutsim-madi
+python launch.py -m $PBS_ARRAY_INDEX -p parameters-replicates.xml -d results/variation-low-213 -seed $PBS_ARRAY_INDEX
+

@@ -1,0 +1,26 @@
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+eval(parse(text = responseName)) ~ s(eaten.P, k = k1, bs = "tp") + 
+    s(eaten.C, k = k1, bs = "tp") + s(eaten.P, eaten.C, k = k2, 
+    bs = "tp")
+<environment: 0x7fe8a34200d8>
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  26.8644     0.1286     209   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                     edf Ref.df     F p-value    
+s(eaten.P)         16.11     17 40.61  <2e-16 ***
+s(eaten.C)         15.35     17 44.27  <2e-16 ***
+s(eaten.P,eaten.C)  7.94      9 70.50  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.989   Deviance explained =   99%
+-REML = 646.94  Scale est. = 4.1318    n = 250

@@ -1,0 +1,31 @@
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+eval(parse(text = responseName)) ~ s(eaten.P, k = k1, bs = "tp") + 
+    s(eaten.C, k = k1, bs = "tp") + s(eaten.F, k = k1, bs = "tp") + 
+    s(eaten.P, eaten.C, k = k2, bs = "tp") + s(eaten.C, eaten.F, 
+    k = k2, bs = "tp") + s(eaten.P, eaten.F, k = k2, bs = "tp") + 
+    s(eaten.P, eaten.C, eaten.F, k = k2, bs = "tp")
+
+Parametric coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 9.438e-01  2.637e-06  357880   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                              edf Ref.df       F  p-value    
+s(eaten.P)                 15.267     17 633.639  < 2e-16 ***
+s(eaten.C)                  1.002     17 188.199  < 2e-16 ***
+s(eaten.F)                 14.683     17 287.430  < 2e-16 ***
+s(eaten.P,eaten.C)          6.863      9   7.558 3.84e-15 ***
+s(eaten.C,eaten.F)          7.058      9  73.622  < 2e-16 ***
+s(eaten.P,eaten.F)          2.353      9   5.426 3.22e-15 ***
+s(eaten.P,eaten.C,eaten.F)  5.967      8 149.240  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =      1   Deviance explained =  100%
+-REML =  -1340  Scale est. = 1.7388e-09  n = 250

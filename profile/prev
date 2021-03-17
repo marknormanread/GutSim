@@ -1,0 +1,346 @@
+  ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       1    0.000    0.000  305.309  305.309 <string>:1(<module>)
+       8    0.000    0.000    0.002    0.000 <string>:23(parse)
+2088/494    0.001    0.000    0.001    0.000 <string>:38(iter)
+       8    0.000    0.000    0.002    0.000 <string>:54(parse)
+       6    0.000    0.000    0.000    0.000 <string>:61(__init__)
+   10852    0.007    0.000    0.017    0.000 <string>:71(next)
+       6    0.000    0.000    0.000    0.000 <string>:91(__iter__)
+       8    0.000    0.000    0.000    0.000 ElementTree.py:607(__init__)
+       6    0.000    0.000    0.000    0.000 ElementTree.py:665(iter)
+       6    0.000    0.000    0.001    0.000 ElementTree.py:670(getiterator)
+       2    0.000    0.000    0.000    0.000 ElementTree.py:735(findall)
+      10    0.000    0.000    0.000    0.000 __init__.py:119(iteritems)
+       2    0.000    0.000    0.090    0.045 __init__.py:380(open_workbook)
+61517310   27.622    0.000   27.622    0.000 _weakrefset.py:68(__contains__)
+30758920   48.907    0.000   80.547    0.000 abc.py:128(__instancecheck__)
+ 2177506    6.455    0.000    6.455    0.000 bacteria.py:119(getLimitingResource)
+   22665    0.138    0.000    0.345    0.000 bacteria.py:125(divide)
+ 1088753    0.330    0.000    0.330    0.000 bacteria.py:132(filterAvailable)
+ 1088753    4.142    0.000    7.064    0.000 bacteria.py:135(internaliseNutrients)
+  779936    1.775    0.000    1.775    0.000 bacteria.py:149(getLimitingResource)
+    7535    0.043    0.000    0.105    0.000 bacteria.py:156(divide)
+  389968    0.116    0.000    0.116    0.000 bacteria.py:163(filterAvailable)
+  389968    1.191    0.000    1.950    0.000 bacteria.py:166(internaliseNutrients)
+ 4241082   12.616    0.000   12.616    0.000 bacteria.py:180(getLimitingResource)
+   44226    0.310    0.000    0.731    0.000 bacteria.py:186(divide)
+ 2120541    0.631    0.000    0.631    0.000 bacteria.py:193(filterAvailable)
+ 2120541    8.031    0.000   13.715    0.000 bacteria.py:196(internaliseNutrients)
+ 2785594    6.609    0.000    6.609    0.000 bacteria.py:210(getLimitingResource)
+   28457    0.196    0.000    0.437    0.000 bacteria.py:216(divide)
+ 1392797    0.400    0.000    0.400    0.000 bacteria.py:223(filterAvailable)
+ 1392797    4.277    0.000    6.979    0.000 bacteria.py:226(internaliseNutrients)
+ 5384642    4.148    0.000    4.148    0.000 bacteria.py:240(getLimitingResource)
+   56713    0.292    0.000    0.690    0.000 bacteria.py:246(divide)
+  162096    0.704    0.000    0.705    0.000 bacteria.py:25(__init__)
+ 2692321    0.749    0.000    0.749    0.000 bacteria.py:253(filterAvailable)
+ 2692321    5.193    0.000    7.616    0.000 bacteria.py:256(internaliseNutrients)
+ 7684380   15.166    0.000   30.075    0.000 bacteria.py:67(canDivide)
+ 7684380   25.217    0.000   48.615    0.000 bacteria.py:76(updateHarvestCapacity)
+ 7684380   20.853    0.000  152.031    0.000 bacteria.py:91(step)
+       2    0.000    0.000    0.000    0.000 book.py:431(sheet_by_index)
+       2    0.000    0.000    0.000    0.000 book.py:437(sheet_by_name)
+       2    0.000    0.000    0.000    0.000 book.py:517(__init__)
+       2    0.000    0.000    0.000    0.000 book.py:612(initialise_format_info)
+    4120    0.002    0.000    0.007    0.000 common.py:1544(_values_from_object)
+     327    0.000    0.000    0.000    0.000 common.py:1616(_possibly_castable)
+     320    0.001    0.000    0.002    0.000 common.py:1641(_possibly_cast_to_datetime)
+    1315    0.001    0.000    0.005    0.000 common.py:1742(_is_bool_indexer)
+       8    0.000    0.000    0.000    0.000 common.py:1986(_asarray_tuplesafe)
+     532    0.000    0.000    0.002    0.000 common.py:2043(is_integer)
+    1210    0.001    0.000    0.001    0.000 common.py:2047(is_float)
+     500    0.000    0.000    0.001    0.000 common.py:2083(is_datetime64_dtype)
+     250    0.000    0.000    0.000    0.000 common.py:2103(is_timedelta64_dtype)
+     250    0.000    0.000    0.000    0.000 common.py:2126(is_float_dtype)
+      76    0.000    0.000    0.000    0.000 common.py:2155(is_list_like)
+    1414    0.001    0.000    0.002    0.000 common.py:58(_check)
+       2    0.000    0.000    0.090    0.045 excel.py:119(__init__)
+       2    0.000    0.000    0.009    0.004 excel.py:146(parse)
+       2    0.003    0.001    0.009    0.004 excel.py:243(_parse_excel)
+       2    0.000    0.000    0.000    0.000 excel.py:322(_trim_excel_header)
+       2    0.000    0.000    0.099    0.049 excel.py:52(read_excel)
+       1    0.000    0.000    0.000    0.000 experiment.py:10(calculateMucinSecretions)
+      30    0.000    0.000    0.000    0.000 experiment.py:28(__init__)
+       1    0.008    0.008  305.308  305.308 experiment.py:38(launch)
+       2    0.000    0.000    0.000    0.000 formatting.py:344(__init__)
+       2    0.000    0.000    0.000    0.000 formatting.py:447(is_date_format_string)
+     250    0.002    0.000    0.048    0.000 frame.py:1565(_ixs)
+       2    0.000    0.000    0.003    0.001 frame.py:187(__init__)
+       2    0.000    0.000    0.003    0.001 frame.py:277(_init_dict)
+      49    0.000    0.000    0.000    0.000 frame.py:287(<genexpr>)
+       1    0.000    0.000    0.000    0.000 frame.py:369(shape)
+       2    0.000    0.000    0.002    0.001 frame.py:4456(_arrays_to_mgr)
+       1    0.000    0.000    0.000    0.000 frame.py:4476(extract_index)
+       2    0.000    0.000    0.001    0.001 frame.py:4752(_homogenize)
+     282    0.001    0.000    0.006    0.000 fromnumeric.py:1931(prod)
+     282    0.001    0.000    0.005    0.000 fromnumeric.py:32(_wrapit)
+    1310    0.001    0.000    0.002    0.000 function_base.py:33(iterable)
+     250    0.000    0.000    0.000    0.000 generic.py:105(_validate_dtype)
+     280    0.000    0.000    0.001    0.000 generic.py:1071(_set_is_copy)
+      30    0.000    0.000    0.011    0.000 generic.py:1185(xs)
+     562    0.001    0.000    0.001    0.000 generic.py:1817(__setattr__)
+      30    0.000    0.000    0.000    0.000 generic.py:1842(_consolidate_inplace)
+      30    0.000    0.000    0.000    0.000 generic.py:1843(<lambda>)
+      30    0.000    0.000    0.000    0.000 generic.py:1885(_protect_consolidate)
+      30    0.000    0.000    0.000    0.000 generic.py:284(_get_axis_number)
+    1870    0.002    0.000    0.003    0.000 generic.py:297(_get_axis_name)
+    1870    0.001    0.000    0.005    0.000 generic.py:310(_get_axis)
+       2    0.000    0.000    0.000    0.000 generic.py:378(ndim)
+     282    0.001    0.000    0.001    0.000 generic.py:88(__init__)
+     780    0.001    0.000    0.002    0.000 generic.py:968(_indexer)
+    2760    0.003    0.000    0.009    0.000 index.py:1009(get_loc)
+     680    0.002    0.000    0.007    0.000 index.py:1019(get_value)
+       5    0.000    0.000    0.000    0.000 index.py:1170(isin)
+       5    0.000    0.000    0.000    0.000 index.py:1186(_array_values)
+       1    0.000    0.000    0.000    0.000 index.py:1659(__new__)
+      11    0.000    0.000    0.000    0.000 index.py:182(_reset_identity)
+     535    0.001    0.000    0.002    0.000 index.py:186(view)
+       1    0.000    0.000    0.000    0.000 index.py:205(_coerce_to_ndarray)
+      11    0.000    0.000    0.000    0.000 index.py:220(__array_finalize__)
+       1    0.000    0.000    0.000    0.000 index.py:2468(from_arrays)
+       4    0.000    0.000    0.000    0.000 index.py:301(dtype)
+       8    0.000    0.000    0.000    0.000 index.py:314(_set_names)
+     304    0.000    0.000    0.000    0.000 index.py:3522(_ensure_index)
+     819    0.001    0.000    0.002    0.000 index.py:392(values)
+       2    0.000    0.000    0.000    0.000 index.py:409(is_unique)
+     780    0.001    0.000    0.003    0.000 index.py:428(_convert_scalar_indexer)
+     250    0.000    0.000    0.000    0.000 index.py:433(to_int)
+       3    0.000    0.000    0.000    0.000 index.py:558(_engine)
+       3    0.000    0.000    0.000    0.000 index.py:561(<lambda>)
+       2    0.000    0.000    0.000    0.000 index.py:571(inferred_type)
+       2    0.000    0.000    0.000    0.000 index.py:578(is_all_dates)
+     812    0.001    0.000    0.003    0.000 index.py:582(__iter__)
+     577    0.001    0.000    0.001    0.000 index.py:604(__contains__)
+     535    0.001    0.000    0.004    0.000 index.py:615(__getitem__)
+       9    0.000    0.000    0.000    0.000 index.py:98(__new__)
+     780    0.001    0.000    0.090    0.000 indexing.py:1024(__getitem__)
+     530    0.002    0.000    0.011    0.000 indexing.py:1066(_has_valid_type)
+     530    0.002    0.000    0.035    0.000 indexing.py:1136(_getitem_axis)
+     780    0.002    0.000    0.007    0.000 indexing.py:119(_convert_scalar_indexer)
+     250    0.001    0.000    0.055    0.000 indexing.py:1214(_getitem_axis)
+    1310    0.001    0.000    0.003    0.000 indexing.py:1472(_is_list_like)
+     252    0.000    0.000    0.000    0.000 indexing.py:39(__init__)
+     530    0.001    0.000    0.018    0.000 indexing.py:58(_get_label)
+     250    0.000    0.000    0.048    0.000 indexing.py:72(_get_loc)
+     282    0.001    0.000    0.002    0.000 internals.py:1350(__init__)
+     285    0.000    0.000    0.000    0.000 internals.py:142(set_ref_locs)
+     285    0.003    0.000    0.013    0.000 internals.py:1944(make_block)
+       2    0.000    0.000    0.000    0.000 internals.py:2018(__init__)
+       2    0.000    0.000    0.000    0.000 internals.py:2059(shape)
+       6    0.000    0.000    0.000    0.000 internals.py:2062(<genexpr>)
+       4    0.000    0.000    0.000    0.000 internals.py:2065(ndim)
+       5    0.000    0.000    0.000    0.000 internals.py:210(dtype)
+       5    0.000    0.000    0.000    0.000 internals.py:214(ftype)
+     289    0.000    0.000    0.000    0.000 internals.py:2239(_get_items)
+       2    0.000    0.000    0.000    0.000 internals.py:2328(_verify_integrity)
+       7    0.000    0.000    0.000    0.000 internals.py:2330(<genexpr>)
+      32    0.000    0.000    0.000    0.000 internals.py:2492(is_consolidated)
+       2    0.000    0.000    0.000    0.000 internals.py:2500(_consolidate_check)
+       2    0.000    0.000    0.000    0.000 internals.py:2506(_set_has_sparse)
+       7    0.000    0.000    0.000    0.000 internals.py:2507(<genexpr>)
+     280    0.007    0.000    0.026    0.000 internals.py:2807(fast_2d_xs)
+      30    0.000    0.000    0.000    0.000 internals.py:2837(consolidate)
+       2    0.000    0.000    0.000    0.000 internals.py:2852(_consolidate_inplace)
+    2730    0.001    0.000    0.001    0.000 internals.py:297(iget)
+     280    0.001    0.000    0.015    0.000 internals.py:3571(__init__)
+     680    0.000    0.000    0.001    0.000 internals.py:3702(values)
+       2    0.000    0.000    0.001    0.001 internals.py:3752(create_block_manager_from_arrays)
+       2    0.000    0.000    0.001    0.001 internals.py:3771(form_blocks)
+       2    0.000    0.000    0.001    0.000 internals.py:3868(_simple_blockify)
+       3    0.000    0.000    0.000    0.000 internals.py:3884(_multi_blockify)
+       8    0.000    0.000    0.000    0.000 internals.py:3888(<lambda>)
+       5    0.000    0.000    0.001    0.000 internals.py:3923(_stack_arrays)
+      47    0.000    0.000    0.000    0.000 internals.py:3926(_asarray_compat)
+       5    0.000    0.000    0.000    0.000 internals.py:3932(_shape_compat)
+     280    0.004    0.000    0.005    0.000 internals.py:3976(_interleaved_dtype)
+    2240    0.001    0.000    0.001    0.000 internals.py:3980(<lambda>)
+     285    0.001    0.000    0.001    0.000 internals.py:53(__init__)
+    2730    0.000    0.000    0.000    0.000 internals.py:540(_try_coerce_result)
+     250    0.002    0.000    0.012    0.000 mouse.py:112(__init__)
+     250    0.010    0.000    0.010    0.000 mouse.py:13(__init__)
+       1   11.819   11.819  305.095  305.095 mouse.py:151(execute)
+  159596    0.093    0.000    0.122    0.000 mouse.py:215(receiveNewBacteria)
+    1682   14.318    0.009  109.302    0.065 mouse.py:22(log)
+     595    0.001    0.000    0.001    0.000 numeric.py:1574(isscalar)
+    1161    0.001    0.000    0.005    0.000 numeric.py:167(asarray)
+ 8006322    4.073    0.000    4.073    0.000 nutrients.py:12(__init__)
+  159596    0.402    0.000    0.487    0.000 nutrients.py:19(half)
+ 7684380   10.628    0.000   10.628    0.000 nutrients.py:26(add)
+    1681    0.004    0.000    0.004    0.000 nutrients.py:36(addIn)
+ 7684380   26.543    0.000   26.543    0.000 nutrients.py:44(subtract)
+       2    0.000    0.000    0.000    0.000 parsers.py:1153(TextParser)
+       2    0.000    0.000    0.000    0.000 parsers.py:1201(count_empty_vals)
+       2    0.000    0.000    0.000    0.000 parsers.py:1242(__init__)
+       2    0.000    0.000    0.002    0.001 parsers.py:1429(read)
+       2    0.000    0.000    0.000    0.000 parsers.py:1465(_exclude_implicit_index)
+       7    0.000    0.000    0.000    0.000 parsers.py:1477(<genexpr>)
+       2    0.000    0.000    0.002    0.001 parsers.py:1487(_convert_data)
+       2    0.000    0.000    0.000    0.000 parsers.py:1499(_infer_columns)
+       2    0.000    0.000    0.000    0.000 parsers.py:1611(_handle_usecols)
+       2    0.000    0.000    0.000    0.000 parsers.py:1636(_buffered_line)
+       6    0.000    0.000    0.000    0.000 parsers.py:1645(_next_line)
+       8    0.000    0.000    0.000    0.000 parsers.py:1668(_check_comments)
+       2    0.000    0.000    0.000    0.000 parsers.py:1686(_check_thousands)
+       2    0.000    0.000    0.000    0.000 parsers.py:1705(_clear_buffer)
+       2    0.000    0.000    0.000    0.000 parsers.py:1710(_get_index_name)
+       2    0.000    0.000    0.000    0.000 parsers.py:1772(_rows_to_cols)
+       2    0.000    0.000    0.000    0.000 parsers.py:1813(_get_lines)
+       2    0.000    0.000    0.000    0.000 parsers.py:1888(_make_date_converter)
+       2    0.000    0.000    0.000    0.000 parsers.py:1920(_process_date_conversion)
+       2    0.000    0.000    0.000    0.000 parsers.py:2003(_clean_na_values)
+       1    0.000    0.000    0.000    0.000 parsers.py:2031(_clean_index_names)
+      47    0.000    0.000    0.000    0.000 parsers.py:2116(_get_na_values)
+       2    0.000    0.000    0.000    0.000 parsers.py:470(__init__)
+       2    0.000    0.000    0.000    0.000 parsers.py:504(_get_options_with_defaults)
+       2    0.000    0.000    0.000    0.000 parsers.py:529(_clean_options)
+       2    0.000    0.000    0.000    0.000 parsers.py:608(_make_engine)
+       2    0.000    0.000    0.005    0.002 parsers.py:621(read)
+       2    0.000    0.000    0.000    0.000 parsers.py:640(_create_index)
+       5    0.000    0.000    0.000    0.000 parsers.py:650(_is_index_col)
+       2    0.000    0.000    0.000    0.000 parsers.py:656(__init__)
+       3    0.000    0.000    0.000    0.000 parsers.py:708(_has_complex_date_col)
+       1    0.000    0.000    0.000    0.000 parsers.py:715(_should_parse_dates)
+       2    0.000    0.000    0.000    0.000 parsers.py:780(_maybe_make_multi_index_columns)
+       2    0.000    0.000    0.000    0.000 parsers.py:788(_make_index)
+       1    0.000    0.000    0.000    0.000 parsers.py:817(_get_simple_index)
+       1    0.000    0.000    0.000    0.000 parsers.py:818(ix)
+       1    0.000    0.000    0.000    0.000 parsers.py:870(_agg_index)
+       2    0.000    0.000    0.002    0.001 parsers.py:893(_convert_to_ndarrays)
+      48    0.000    0.000    0.001    0.000 parsers.py:911(_convert_types)
+       2    0.000    0.000    0.000    0.000 parsers.py:941(_do_date_conversions)
+    1682    4.798    0.003    5.327    0.003 random.py:276(shuffle)
+     680    0.001    0.000    0.002    0.000 series.py:1032(get_values)
+     280    0.002    0.000    0.025    0.000 series.py:126(__init__)
+     327    0.002    0.000    0.007    0.000 series.py:2490(_sanitize_array)
+     327    0.001    0.000    0.003    0.000 series.py:2503(_try_cast)
+     280    0.001    0.000    0.001    0.000 series.py:254(_set_axis)
+     280    0.000    0.000    0.000    0.000 series.py:276(_set_subtyp)
+     250    0.000    0.000    0.000    0.000 series.py:324(ndim)
+     680    0.001    0.000    0.009    0.000 series.py:489(__getitem__)
+       4    0.000    0.000    0.000    0.000 sheet.py:303(__init__)
+     285    0.000    0.000    0.000    0.000 sheet.py:463(row_types)
+     285    0.000    0.000    0.000    0.000 sheet.py:471(row_values)
+       4    0.000    0.000    0.000    0.000 sheet.py:554(tidy_dimensions)
+    4500    0.007    0.000    0.008    0.000 sheet.py:672(put_cell_unragged)
+      20    0.000    0.000    0.000    0.000 timemachine.py:36(<lambda>)
+     198    0.000    0.000    0.000    0.000 xlsx.py:116(unescape)
+     760    0.001    0.000    0.001    0.000 xlsx.py:124(cooked_text)
+     160    0.000    0.000    0.001    0.000 xlsx.py:132(get_text_from_si_or_is)
+       8    0.000    0.000    0.000    0.000 xlsx.py:160(cnv_ST_Xstring)
+       2    0.000    0.000    0.000    0.000 xlsx.py:171(cnv_xsd_boolean)
+       2    0.000    0.000    0.000    0.000 xlsx.py:23(ensure_elementtree_imported)
+       4    0.000    0.000    0.003    0.001 xlsx.py:241(process_stream)
+      10    0.000    0.000    0.000    0.000 xlsx.py:254(finish_off)
+       2    0.000    0.000    0.000    0.000 xlsx.py:268(__init__)
+       2    0.000    0.000    0.000    0.000 xlsx.py:286(process_coreprops)
+       2    0.000    0.000    0.000    0.000 xlsx.py:306(process_rels)
+       4    0.000    0.000    0.000    0.000 xlsx.py:349(do_sheet)
+       2    0.000    0.000    0.000    0.000 xlsx.py:384(do_workbookpr)
+       2    0.000    0.000    0.000    0.000 xlsx.py:399(__init__)
+       2    0.001    0.000    0.002    0.001 xlsx.py:408(process_stream_iterparse)
+       2    0.000    0.000    0.000    0.000 xlsx.py:448(__init__)
+       2    0.000    0.000    0.000    0.000 xlsx.py:461(do_cellstylexfs)
+       2    0.000    0.000    0.000    0.000 xlsx.py:464(do_cellxfs)
+       2    0.000    0.000    0.000    0.000 xlsx.py:467(do_numfmt)
+     132    0.000    0.000    0.000    0.000 xlsx.py:477(do_xf)
+       4    0.000    0.000    0.000    0.000 xlsx.py:507(__init__)
+       4    0.017    0.004    0.080    0.020 xlsx.py:520(own_process_stream)
+       4    0.000    0.000    0.000    0.000 xlsx.py:560(do_dimension)
+      10    0.000    0.000    0.000    0.000 xlsx.py:569(do_merge_cell)
+     568    0.034    0.000    0.047    0.000 xlsx.py:579(do_row)
+       2    0.000    0.000    0.088    0.044 xlsx.py:732(open_workbook_2007_xml)
+      24    0.000    0.000    0.000    0.000 xlsx.py:76(cell_name_to_rowx_colx)
+       2    0.000    0.000    0.000    0.000 zipfile.py:1148(__del__)
+       2    0.000    0.000    0.000    0.000 zipfile.py:1152(close)
+       2    0.000    0.000    0.000    0.000 zipfile.py:157(_EndRecData64)
+       2    0.000    0.000    0.000    0.000 zipfile.py:196(_EndRecData)
+      26    0.000    0.000    0.000    0.000 zipfile.py:279(__init__)
+      26    0.000    0.000    0.000    0.000 zipfile.py:360(_decodeFilename)
+      26    0.000    0.000    0.000    0.000 zipfile.py:366(_decodeExtra)
+      14    0.000    0.000    0.000    0.000 zipfile.py:476(__init__)
+      38    0.000    0.000    0.002    0.000 zipfile.py:570(read)
+      24    0.000    0.000    0.000    0.000 zipfile.py:588(_update_crc)
+      52    0.000    0.000    0.002    0.000 zipfile.py:598(read1)
+       2    0.000    0.000    0.001    0.000 zipfile.py:669(__init__)
+       2    0.000    0.000    0.001    0.000 zipfile.py:742(_GetContents)
+       2    0.000    0.000    0.001    0.000 zipfile.py:753(_RealGetContents)
+       2    0.000    0.000    0.000    0.000 zipfile.py:820(namelist)
+      14    0.000    0.000    0.000    0.000 zipfile.py:852(getinfo)
+      14    0.000    0.000    0.001    0.000 zipfile.py:869(open)
+       6    0.000    0.000    0.000    0.000 {_elementtree.TreeBuilder}
+      14    0.000    0.000    0.000    0.000 {_elementtree.XMLParser}
+      44    0.000    0.000    0.000    0.000 {_struct.unpack}
+       6    0.000    0.000    0.000    0.000 {_warnings.warn}
+       2    0.000    0.000    0.000    0.000 {all}
+       2    0.000    0.000    0.000    0.000 {any}
+       8    0.001    0.000    0.002    0.000 {built-in method _parse}
+       6    0.000    0.000    0.000    0.000 {built-in method _setevents}
+     728    0.000    0.000    0.000    0.000 {built-in method clear}
+       6    0.000    0.000    0.000    0.000 {built-in method close}
+      24    0.001    0.000    0.001    0.000 {built-in method decompress}
+      16    0.009    0.001    0.009    0.001 {built-in method feed}
+       2    0.000    0.000    0.000    0.000 {built-in method findall}
+      14    0.000    0.000    0.000    0.000 {built-in method flush}
+   15174    0.005    0.000    0.005    0.000 {built-in method get}
+       6    0.000    0.000    0.000    0.000 {built-in method iter}
+       2    0.000    0.000    0.000    0.000 {cStringIO.StringIO}
+      26    0.000    0.000    0.000    0.000 {chr}
+30767410    4.023    0.000    4.023    0.000 {getattr}
+     108    0.000    0.000    0.000    0.000 {hasattr}
+     577    0.000    0.000    0.000    0.000 {hash}
+38464076   14.440    0.000   94.990    0.000 {isinstance}
+    3348    0.001    0.000    0.001    0.000 {issubclass}
+    2122    0.001    0.000    0.001    0.000 {iter}
+    8492    0.002    0.000    0.002    0.000 {len}
+    1681    0.001    0.000    0.001    0.000 {math.floor}
+ 7684418    2.144    0.000    2.144    0.000 {max}
+ 7871088    1.551    0.000    1.551    0.000 {method 'append' of 'list' objects}
+       4    0.001    0.000    0.001    0.000 {method 'close' of 'file' objects}
+       2    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+      20    0.000    0.000    0.000    0.000 {method 'decode' of 'str' objects}
+       1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      24    0.000    0.000    0.000    0.000 {method 'extend' of 'array.array' objects}
+    1712    0.002    0.000    0.002    0.000 {method 'extend' of 'list' objects}
+      26    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+    2618    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+    2760    0.003    0.000    0.003    0.000 {method 'get_loc' of 'pandas.index.IndexEngine' objects}
+     680    0.001    0.000    0.001    0.000 {method 'get_value' of 'pandas.index.IndexEngine' objects}
+       2    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+      10    0.000    0.000    0.000    0.000 {method 'iteritems' of 'dict' objects}
+     160    0.000    0.000    0.000    0.000 {method 'join' of 'unicode' objects}
+      24    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+       1    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+     282    0.001    0.000    0.001    0.000 {method 'prod' of 'numpy.ndarray' objects}
+15529174    1.565    0.000    1.565    0.000 {method 'random' of '_random.Random' objects}
+     282    0.000    0.000    0.000    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+     104    0.000    0.000    0.000    0.000 {method 'read' of 'cStringIO.StringI' objects}
+      54    0.000    0.000    0.000    0.000 {method 'read' of 'file' objects}
+       2    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+      22    0.000    0.000    0.000    0.000 {method 'seek' of 'file' objects}
+      28    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+      19    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+     194    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+       2    0.000    0.000    0.000    0.000 {method 'sub' of '_sre.SRE_Pattern' objects}
+       2    0.000    0.000    0.000    0.000 {method 'tell' of 'file' objects}
+       1    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+    1224    0.001    0.000    0.001    0.000 {method 'view' of 'numpy.ndarray' objects}
+23053934   12.583    0.000   12.583    0.000 {min}
+       1    0.000    0.000    0.000    0.000 {numpy.core.multiarray.arange}
+    1809    0.004    0.000    0.004    0.000 {numpy.core.multiarray.array}
+     285    0.001    0.000    0.001    0.000 {numpy.core.multiarray.empty}
+      18    0.000    0.000    0.000    0.000 {open}
+       2    0.000    0.000    0.000    0.000 {pandas.lib.clean_index_list}
+     362    0.003    0.000    0.003    0.000 {pandas.lib.infer_dtype}
+       5    0.000    0.000    0.000    0.000 {pandas.lib.ismember}
+      40    0.000    0.000    0.000    0.000 {pandas.lib.maybe_convert_bool}
+      48    0.001    0.000    0.001    0.000 {pandas.lib.maybe_convert_numeric}
+      40    0.000    0.000    0.000    0.000 {pandas.lib.sanitize_objects}
+       2    0.000    0.000    0.000    0.000 {pandas.lib.to_object_array}
+     180    0.000    0.000    0.000    0.000 {pandas.tslib.get_value_box}
+       7    0.000    0.000    0.000    0.000 {pandas.tslib.is_timestamp_array}
+    1694    0.003    0.000    0.003    0.000 {range}
+     300    0.000    0.000    0.000    0.000 {setattr}
+       1    0.000    0.000    0.000    0.000 {sorted}
+       4    0.000    0.000    0.000    0.000 {sum}
+      38    0.000    0.000    0.000    0.000 {zlib.crc32}
+      14    0.000    0.000    0.000    0.000 {zlib.decompressobj}

@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: gutsim_documentation.aux
+The style file: plain.bst
+Database file #1: references.bib
+You've used 13 entries,
+            2118 wiz_defined-function locations,
+            602 strings with 7250 characters,
+and the built_in function-call counts, 5201 in all, are:
+= -- 505
+> -- 319
+< -- 0
++ -- 125
+- -- 112
+* -- 457
+:= -- 898
+add.period$ -- 39
+call.type$ -- 13
+change.case$ -- 95
+chr.to.int$ -- 0
+cite$ -- 13
+duplicate$ -- 142
+empty$ -- 343
+format.name$ -- 112
+if$ -- 1018
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 13
+newline$ -- 68
+num.names$ -- 26
+pop$ -- 69
+preamble$ -- 1
+purify$ -- 82
+quote$ -- 0
+skip$ -- 95
+stack$ -- 0
+substring$ -- 368
+swap$ -- 13
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 52
+warning$ -- 0
+while$ -- 50
+width$ -- 15
+write$ -- 145
