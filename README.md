@@ -18,3 +18,10 @@ There are several command line options that can be used to supply
 There are more options too. 
 You will find a lot of this documented at the bottom of the `main` method at the bottom of `gutsim/experiment.py`.
 
+## Related publications
+
+GutSim was first introduced in:
+
+>> Holmes, A. J., Chew, Y. V., Colakoglu, F., Cliff, J. B., Klaassens, E., Read, M. N., … Simpson, S. J. (2017). Diet-Microbiome Interactions in Health Are Controlled by Intestinal Nitrogen Source Constraints. Cell Metabolism, 25, 140–151. https://doi.org/10.1016/j.cmet.2016.10.021
+
+We are currently working on a follow up paper that focused on the gut microbiome's response to periodic fasting and prebiotics.
