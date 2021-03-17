@@ -1,9 +1,10 @@
 # GutSim
-An agent-based model of the gut microbial community and it's repsonse to diet
+
+An agent-based model of the gut microbial community and its repsonse to diet.
 
 ## Documentation and help
 
-A comprehensive explanation of how the model works can be (found in this PDF file)[doc/gutsim_documentation.pdf].
+A comprehensive explanation of how the model works can be [found in this PDF file](doc/gutsim_documentation.pdf).
 
 I launch GutSim from Bash (I use a Mac). 
 
